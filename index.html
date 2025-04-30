@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2025 AI 学科计划</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="dark-mode">
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">2025 AI 学科计划</div>
+            <div class="nav-links">
+                <a href="#home">首页</a>
+                <a href="#knowledge">知识库</a>
+                <a href="#about">关于我们</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 首页部分 -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h1 class="glitch-text">2025 AI 学科计划</h1>
+            <p class="slogan">用 AI 给传统授课 <span class="highlight-text">降维打击</span></p>
+            <div class="hero-content">
+                <p class="intro">围绕学校课程考纲，构建以 AI 驱动的学科知识库，帮助大学生用最少精力安全通关课程。</p>
+                <a href="#knowledge" class="cta-button">开始探索</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 知识库部分 -->
+    <section id="knowledge" class="knowledge-base">
+        <div class="container">
+            <h2>知识库</h2>
+            <div class="search-bar">
+                <input type="text" id="courseSearch" placeholder="搜索课程名称或描述...">
+                <select id="courseFilter">
+                    <option value="all">全部课程</option>
+                    <option value="general">通识课程</option>
+                    <option value="major">专业课程</option>
+                </select>
+            </div>
+            <div class="course-grid" id="courseGrid">
+                <!-- 课程卡片将通过JavaScript动态生成 -->
+            </div>
+        </div>
+    </section>
+
+    <!-- 关于我们部分 -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>关于我们</h2>
+            <div class="about-content">
+                <div class="project-origin">
+                    <h3>项目起源</h3>
+                    <p>在 AI 大语言模型迅速发展的背景下，我们希望通过 AI 技术革新传统学习方式，让学习更加高效。</p>
+                </div>
+                <div class="contact-info">
+                    <h3>联系我们</h3>
+                    <div class="contact-links">
+                        <a href="mailto:jo-bo@qq.com" class="contact-link">
+                            <i class="fas fa-envelope"></i>
+                            <span>邮箱联系</span>
+                        </a>
+                       
+                        <a href="#" class="contact-link">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 返回顶部按钮 -->
+    <button id="backToTop" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- 版权声明 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="disclaimer">
+                <p>所有资料仅供学习与参考，不得用于商业用途或考试作弊</p>
+                <p>AI 生成内容无法替代真实学习，使用者需自行承担后果</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>
