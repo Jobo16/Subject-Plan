@@ -145,6 +145,11 @@ body {
     cursor: pointer;
 }
 
+.search-bar select option {
+    background: black;
+    color: white;
+}
+
 .search-bar input:focus,
 .search-bar select:focus {
     outline: 1px solid var(--accent-color);
